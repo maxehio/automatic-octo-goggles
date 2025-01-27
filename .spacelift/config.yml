@@ -1,0 +1,8 @@
+stack:
+  name: terragrunt-options-test
+  backend: terraform
+  working_directory: .
+  triggers:
+    - terragrunt.hcl
+  terraform_provider:
+    command: terragrunt
