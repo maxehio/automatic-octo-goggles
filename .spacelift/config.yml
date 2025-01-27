@@ -6,5 +6,3 @@ stack:
     - terragrunt.hcl
   terraform_provider:
     command: terragrunt
-  before_init:
-    - terragrunt --terragrunt-log-level debug
